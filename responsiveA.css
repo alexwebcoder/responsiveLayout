@@ -3,36 +3,36 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	padding: 0;
 	margin: 0;
-	
 
 }
 
 
-
-
 p {
 
+	line-height: 1.5em;
 	margin: 0 0 1em 0;
 	font-size: 93%;
-	line-height: 1.5em;
+	
 }
 
 
 img {
 
-	max-width: 100%;
+	box-shadow: 10px 10px 5px #888888;
 	height: auto;
 	margin: 0 0 10px 0;
-	box-shadow: 10px 10px 5px #888888;
+	max-width: 100%;
+	
 }
 
 /* Section Inner */
 
 div.section-inner {
 
+	margin: 0 auto;
 	max-width: 1100px;
 	padding: 0 25px;
-	margin: 0 auto;
+	
 }
 
 /* Header */
@@ -40,10 +40,10 @@ div.section-inner {
 header {
 
 	background-color: #83749f;
-	padding: 30px 20px;
 	color: #FFF;
 	font-size:1.6em;
-
+	padding: 30px 20px;
+	
 }
 
 header h1 {
@@ -60,28 +60,32 @@ margin: 0;
 }
 
 nav {
+
 	background-color: #CDB4FF;
 	padding: 0 20px;
 }
 
 nav ul {
+
 	margin: 0;
 	padding: 0;
 }
 
 nav ul li {
-	list-style: none;
+
 	float: left;
 	font-size: .93em;
+	list-style: none;
+	
 }
 
 nav ul li a:link,
 nav ul li a:visited {
+
+	color: #305782;
 	display: block;
 	padding: 10px 25px 10px 0;
-	text-decoration: none;
-	color: #305782;
-	
+	text-decoration: none;	
 	
 }
 
@@ -93,60 +97,80 @@ nav ul li a:hover {
 }
 
 /* Body Content */
+
 section {
-	padding: 50px 0;
+
 	background-color: #ffffdb;
+	padding: 50px 0;
+	
 }
 
 h2 {
 
-	margin:10px 0;
 	color:#2e283a;
 	font-weight:bold;
-
+	margin:10px 0;
+	
 }
 
 /* Thirds */
+
 div.thirds {
+
 	padding-bottom: 50px;
+
 }
 
 div.one-third {
-	width: 30%;
+
 	float: left;
 	margin-right: 5%;
+	width: 30%;
+	
 }
 
 div.one-third-last {
+
 	margin: 0;
 }
 
 /* Main Column */
+
 div.main {
-	width: 65%;
+
 	float: left;
 	margin-right: 5%;
+	width: 65%;
+	
 }
 
 /* Side Column */
+
 div.side {
-	width: 30%;
+
 	float: left;
+	width: 30%;
+	
 }
 
 /* Info Box */
+
 div.info-box-a, div.info-box-b {
+
 	background-color: #CDB4FF;
 	border-radius:3px;
-	padding: 20px;
 	font-size: 13px;
 	margin: 0 0 15px 0;
+	padding: 20px;
+	
 }
 
 
 
 /* Footer */
+
 footer {
+
 	background-color: #9382B8;
 	color: #FFF;
 	padding: 15px 0;
@@ -162,23 +186,29 @@ footer {
 @media (max-width:740px){
 
 	div.one-third {
+
 		width: 47.5%;
 	}
 
 	div.one-third-second {
+
 		margin: 0;
 	}
 
 	div.one-third-last {
+
 		clear: both;
 		float: none;
-		width: auto;
 		padding: 20px 0 0 0;
+		width: auto;
+		
 	}
 
 	nav ul li {
-		width: 25%;
+
 		border-bottom: 1px solid #bababa;
+		width: 25%;
+		
 	}
 
 
@@ -187,26 +217,35 @@ footer {
 
 
 @media screen and (max-width: 620px) {
+
 	nav ul li {
+
 		width: 33%;
+
 	}
 }
 
 @media screen and (max-width: 500px) {
 	
 	nav ul li {
-		width: 50%;
+
 		font-size: 85%;
+		width: 50%;	
+
 	}
 	
 	div.mobile-collapse {
-		width: auto;
+
 		float: none;
 		margin-right: 0;
+		width: auto;
+		
 	}
 	
 	.hide-mobile {
+
 		display: none;
+
 	}
 		
 }
@@ -214,29 +253,36 @@ footer {
 @media screen and (max-width: 480px) {
 	
 	.menu-trigger {
-		display: block;
-		color: #305782;
+
 		background-color: #CDB4FF;
-		padding: 10px;
-		text-align: right;
-		font-size: 83%;
+		color: #305782;
 		cursor: pointer;
+		display: block;
+		font-size: 83%;
+		padding: 10px;
+		text-align: right;	
+		
 	}
 	
 	nav {
+
 		display: none;
 	}
 	
 	.nav-expanded {
+
 		display: block;
 	}
 	
 	nav ul li {
-		float: none;
+
 		border-bottom: 2px solid #d5dce4;
+		float: none;
+		
 	}
 	
 	nav ul li:last-child {
+		
 		border-bottom: none;
 	}
 	
